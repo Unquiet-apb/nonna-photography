@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Allow inclusion in ChatGPT search results.
+User-agent: OAI-SearchBot
+Allow: /
+
+# Allow pages to be opened when a ChatGPT user explicitly requests them.
+User-agent: ChatGPT-User
+Allow: /
+
+# Search visibility is independent from model training.
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://unquiet-apb.github.io/nonna-photography/sitemap.xml

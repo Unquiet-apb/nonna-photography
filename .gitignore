@@ -1,0 +1,9 @@
+tmp/
+preview-*.png
+nav-fix-*.png
+.impeccable/
+tools/
+PRODUCT.md
+DESIGN.md
+.DS_Store
+Thumbs.db

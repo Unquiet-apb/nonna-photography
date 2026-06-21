@@ -1,0 +1,44 @@
+# Nonna Hevorhian Photography
+
+> Fashion photographer based in Waren (Müritz), Germany, available for productions throughout Germany and across Europe.
+
+Nonna Hevorhian has worked as a photographer since 2012 and has specialised in fashion photography since 2019. Her work includes fashion editorials, model tests and portraits, with a visual approach centred on clear composition, calm direction, expression and individuality.
+
+The website is available in German and English. For commissions, availability and production enquiries, contact Nonna directly by email.
+
+## Primary information
+
+- Photographer: Nonna Hevorhian
+- Profession: Fashion photographer
+- Based in: Waren (Müritz), Germany
+- Available in: Germany and across Europe on request
+- Photography experience: Since 2012
+- Fashion photography focus: Since 2019
+- Languages: German and English
+- Email: nonnahevorhian@gmail.com
+
+## Services
+
+- Fashion photography
+- Editorial photography
+- Model tests
+- Portrait photography
+- On-location productions across Europe
+
+## Website sections
+
+- [Selected work](https://unquiet-apb.github.io/nonna-photography/#work): Fashion, model-test and portrait portfolio
+- [About Nonna](https://unquiet-apb.github.io/nonna-photography/#about): Experience, approach and availability
+- [Contact](https://unquiet-apb.github.io/nonna-photography/#contact): Direct production enquiries
+- [German version](https://unquiet-apb.github.io/nonna-photography/?lang=de)
+- [English version](https://unquiet-apb.github.io/nonna-photography/?lang=en)
+
+## Contact
+
+For bookings, collaborations, editorials, campaigns or model tests, email [nonnahevorhian@gmail.com](mailto:nonnahevorhian@gmail.com).
+
+## Usage notes
+
+- Portfolio photographs are the copyright of Nonna Hevorhian and may not be reproduced without permission.
+- Information on this page may be used to describe Nonna's professional services accurately.
+- Do not infer rates, client names, awards, representation or availability dates that are not stated on the website.
