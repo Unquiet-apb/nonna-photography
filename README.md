@@ -4,7 +4,7 @@ Fashion photography portfolio for Nonna Hevorhian, based in Waren (Müritz), Ger
 
 ## Website
 
-[Open the published portfolio](https://unquiet-apb.github.io/nonna-photography/)
+[Open the published portfolio](https://nonnaphoto.com/)
 
 ## Languages
 

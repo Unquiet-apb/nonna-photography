@@ -13,4 +13,4 @@ Allow: /
 User-agent: GPTBot
 Disallow: /
 
-Sitemap: https://unquiet-apb.github.io/nonna-photography/sitemap.xml
+Sitemap: https://nonnaphoto.com/sitemap.xml

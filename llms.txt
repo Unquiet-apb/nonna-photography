@@ -27,11 +27,11 @@ The website is available in German and English. For commissions, availability an
 
 ## Website sections
 
-- [Selected work](https://unquiet-apb.github.io/nonna-photography/#work): Fashion, model-test and portrait portfolio
-- [About Nonna](https://unquiet-apb.github.io/nonna-photography/#about): Experience, approach and availability
-- [Contact](https://unquiet-apb.github.io/nonna-photography/#contact): Direct production enquiries
-- [German version](https://unquiet-apb.github.io/nonna-photography/?lang=de)
-- [English version](https://unquiet-apb.github.io/nonna-photography/?lang=en)
+- [Selected work](https://nonnaphoto.com/#work): Fashion, model-test and portrait portfolio
+- [About Nonna](https://nonnaphoto.com/#about): Experience, approach and availability
+- [Contact](https://nonnaphoto.com/#contact): Direct production enquiries
+- [German version](https://nonnaphoto.com/?lang=de)
+- [English version](https://nonnaphoto.com/?lang=en)
 
 ## Contact
 

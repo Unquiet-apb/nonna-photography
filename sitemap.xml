@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unquiet-apb.github.io/nonna-photography/</loc>
+    <loc>https://nonnaphoto.com/</loc>
     <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="de" href="https://unquiet-apb.github.io/nonna-photography/?lang=de" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://unquiet-apb.github.io/nonna-photography/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://unquiet-apb.github.io/nonna-photography/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://nonnaphoto.com/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nonnaphoto.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://nonnaphoto.com/" />
   </url>
 </urlset>
