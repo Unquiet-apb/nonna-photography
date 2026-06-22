@@ -30,8 +30,8 @@ The website is available in German and English. For commissions, availability an
 - [Selected work](https://nonnaphoto.com/#work): Fashion, model-test and portrait portfolio
 - [About Nonna](https://nonnaphoto.com/#about): Experience, approach and availability
 - [Contact](https://nonnaphoto.com/#contact): Direct production enquiries
-- [German version](https://nonnaphoto.com/?lang=de)
-- [English version](https://nonnaphoto.com/?lang=en)
+- [German version](https://nonnaphoto.com/)
+- [English version](https://nonnaphoto.com/en/)
 
 ## Contact
 
