@@ -10,6 +10,10 @@ const siteHeader = document.querySelector(".site-header");
 let headerUpdateQueued = false;
 
 function updateHeaderState() {
+  if (!siteHeader || document.body.classList.contains("services-page")) {
+    headerUpdateQueued = false;
+    return;
+  }
   siteHeader.classList.toggle("is-scrolled", window.scrollY > 32);
   headerUpdateQueued = false;
 }
@@ -46,51 +50,54 @@ if (!reduceMotion && "IntersectionObserver" in window) {
 
 const galleryItems = [...document.querySelectorAll(".gallery-item")];
 const lightbox = document.querySelector(".lightbox");
-const lightboxImage = lightbox.querySelector("figure img");
-const lightboxCount = lightbox.querySelector(".lightbox-count");
-const closeButton = lightbox.querySelector(".lightbox-close");
-let activeIndex = 0;
 
-function showImage(index) {
-  activeIndex = (index + galleryItems.length) % galleryItems.length;
-  const source = galleryItems[activeIndex].querySelector("img");
-  lightboxImage.src = source.src;
-  lightboxImage.alt = source.alt;
-  lightboxCount.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(galleryItems.length).padStart(2, "0")}`;
+if (lightbox && galleryItems.length) {
+  const lightboxImage = lightbox.querySelector("figure img");
+  const lightboxCount = lightbox.querySelector(".lightbox-count");
+  const closeButton = lightbox.querySelector(".lightbox-close");
+  let activeIndex = 0;
+
+  function showImage(index) {
+    activeIndex = (index + galleryItems.length) % galleryItems.length;
+    const source = galleryItems[activeIndex].querySelector("img");
+    lightboxImage.src = source.src;
+    lightboxImage.alt = source.alt;
+    lightboxCount.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(galleryItems.length).padStart(2, "0")}`;
+  }
+
+  function openLightbox(index) {
+    showImage(index);
+    lightbox.showModal();
+    document.body.classList.add("is-locked");
+    closeButton.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.close();
+    document.body.classList.remove("is-locked");
+    galleryItems[activeIndex].focus();
+  }
+
+  galleryItems.forEach((item, index) => {
+    item.addEventListener("click", () => openLightbox(index));
+  });
+
+  closeButton.addEventListener("click", closeLightbox);
+  lightbox.querySelector(".lightbox-prev").addEventListener("click", () => showImage(activeIndex - 1));
+  lightbox.querySelector(".lightbox-next").addEventListener("click", () => showImage(activeIndex + 1));
+
+  lightbox.addEventListener("click", (event) => {
+    if (event.target === lightbox) closeLightbox();
+  });
+
+  lightbox.addEventListener("cancel", (event) => {
+    event.preventDefault();
+    closeLightbox();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (!lightbox.open) return;
+    if (event.key === "ArrowLeft") showImage(activeIndex - 1);
+    if (event.key === "ArrowRight") showImage(activeIndex + 1);
+  });
 }
-
-function openLightbox(index) {
-  showImage(index);
-  lightbox.showModal();
-  document.body.classList.add("is-locked");
-  closeButton.focus();
-}
-
-function closeLightbox() {
-  lightbox.close();
-  document.body.classList.remove("is-locked");
-  galleryItems[activeIndex].focus();
-}
-
-galleryItems.forEach((item, index) => {
-  item.addEventListener("click", () => openLightbox(index));
-});
-
-closeButton.addEventListener("click", closeLightbox);
-lightbox.querySelector(".lightbox-prev").addEventListener("click", () => showImage(activeIndex - 1));
-lightbox.querySelector(".lightbox-next").addEventListener("click", () => showImage(activeIndex + 1));
-
-lightbox.addEventListener("click", (event) => {
-  if (event.target === lightbox) closeLightbox();
-});
-
-lightbox.addEventListener("cancel", (event) => {
-  event.preventDefault();
-  closeLightbox();
-});
-
-document.addEventListener("keydown", (event) => {
-  if (!lightbox.open) return;
-  if (event.key === "ArrowLeft") showImage(activeIndex - 1);
-  if (event.key === "ArrowRight") showImage(activeIndex + 1);
-});

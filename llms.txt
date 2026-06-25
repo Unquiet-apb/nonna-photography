@@ -24,12 +24,15 @@ The website is available in German and English. For commissions, availability an
 - Model tests
 - Portrait photography
 - On-location productions across Europe
+- Fashion campaigns and content for websites, social media, press and print
 
 ## Website sections
 
 - [Selected work](https://nonnaphoto.com/#work): Fashion, model-test and portrait portfolio
 - [About Nonna](https://nonnaphoto.com/#about): Experience, approach and availability
 - [Contact](https://nonnaphoto.com/#contact): Direct production enquiries
+- [Photography services](https://nonnaphoto.com/services/): German overview of fashion editorials, model tests, portraits and campaigns
+- [Photography services in English](https://nonnaphoto.com/en/services/): English service overview
 - [German version](https://nonnaphoto.com/)
 - [English version](https://nonnaphoto.com/en/)
 

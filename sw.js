@@ -1,7 +1,9 @@
-const CACHE_NAME = "nonna-photo-v1";
+const CACHE_NAME = "nonna-photo-v2";
 const CORE_ASSETS = [
   "/",
   "/en/",
+  "/services/",
+  "/en/services/",
   "/styles.css",
   "/script.js",
   "/manifest.webmanifest",
