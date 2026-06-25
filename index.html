@@ -2,7 +2,10 @@
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Nonna Photo" />
     <meta name="description" content="Nonna Hevorhian ist Fashionfotografin in Waren (Müritz). Editorials, Model Tests und Portraits in Deutschland und europaweit." />
     <meta name="theme-color" content="oklch(1 0 0)" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
@@ -20,6 +23,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <title>Fashionfotografin in Waren | Nonna Hevorhian</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="styles.css" />
     <script type="application/ld+json">
       {
@@ -40,6 +45,7 @@
             "jobTitle": "Fashion Photographer",
             "url": "https://nonnaphoto.com/",
             "email": "mailto:nonnahevorhian@gmail.com",
+            "sameAs": ["https://www.instagram.com/nonna.photographer/"],
             "knowsLanguage": ["de", "en"],
             "knowsAbout": [
               "Fashion photography",
@@ -56,6 +62,7 @@
             "url": "https://nonnaphoto.com/",
             "image": "https://nonnaphoto.com/assets/photos/nonna-04-01.webp",
             "email": "nonnahevorhian@gmail.com",
+            "sameAs": ["https://www.instagram.com/nonna.photographer/"],
             "founder": { "@id": "https://nonnaphoto.com/#nonna-hevorhian" },
             "address": {
               "@type": "PostalAddress",
@@ -98,6 +105,7 @@
         <span aria-hidden="true">/</span>
         <a class="lang-button" href="en/" lang="en">EN</a>
       </div>
+      <a class="mobile-language" href="en/" lang="en" aria-label="English version">EN</a>
     </header>
 
     <main id="main">
@@ -202,13 +210,17 @@
         <div class="contact-meta">
           <p data-i18n="contactLocation">Waren, Deutschland</p>
           <p data-i18n="contactTravel">Europaweit verfügbar</p>
+          <a class="social-link" href="https://www.instagram.com/nonna.photographer/" target="_blank" rel="me noopener noreferrer" aria-label="Nonna Hevorhian auf Instagram">@nonna.photographer</a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <p>© <span id="year"></span> Nonna Hevorhian</p>
-      <a href="#top" data-i18n="backTop">Nach oben</a>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/nonna.photographer/" target="_blank" rel="me noopener noreferrer">Instagram</a>
+        <a href="#top" data-i18n="backTop">Nach oben</a>
+      </div>
     </footer>
 
     <dialog class="lightbox" aria-label="Vergrößerte Portfolioansicht">

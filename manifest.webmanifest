@@ -1,0 +1,29 @@
+{
+  "name": "Nonna Hevorhian Photography",
+  "short_name": "Nonna Photo",
+  "description": "Fashion photography, editorials, model tests and portraits by Nonna Hevorhian.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f8f9",
+  "theme_color": "#08151d",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
